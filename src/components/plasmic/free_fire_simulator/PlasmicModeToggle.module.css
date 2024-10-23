@@ -1,0 +1,125 @@
+.modeSelect {
+  width: 30%;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90px;
+  position: relative;
+}
+@media (min-width: 600px) {
+  .modeSelect {
+    max-width: 150px;
+    height: 48px;
+    width: 150px;
+  }
+}
+.快速模式 {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 46px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+@media (min-width: 600px) {
+  .快速模式 {
+    width: 90px;
+    flex-shrink: 0;
+  }
+}
+.text {
+  display: block;
+  font-size: 10px;
+  text-align: center;
+  font-family: "Built Titling";
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 1;
+  color: rgba(255, 255, 255, 1);
+}
+@media (min-width: 600px) {
+  .text {
+    font-size: 20px;
+    width: 100%;
+    text-align: right;
+    align-self: flex-start;
+    min-width: 0;
+  }
+}
+.group43917 {
+  width: auto;
+  height: 18px;
+  display: block;
+  position: relative;
+  top: auto;
+  left: auto;
+}
+@media (min-width: 600px) {
+  .group43917 {
+    height: 24px;
+  }
+}
+.toggleButton {
+  background: rgba(30, 30, 30, 1);
+  width: 36px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  right: 0px;
+  border-radius: 36px;
+  padding: 4px;
+}
+@media (min-width: 600px) {
+  .toggleButton {
+    width: 54px;
+    height: 110%;
+  }
+}
+.modeSelect:active:focus-within .toggleButton {
+  background: #fbb900;
+}
+.frame {
+  background: rgba(255, 255, 255, 1);
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 39px;
+}
+.frame2 {
+  background: rgba(255, 255, 255, 1);
+  width: 16px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  top: 1.0052108764648438px;
+  left: 0.997406005859375px;
+  flex-shrink: 0;
+  border-radius: 45px;
+}
+@media (min-width: 600px) {
+  .frame2 {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+}
+.modeSelect:active:focus-within .frame2 {
+  left: 19px;
+  top: 1px;
+}
+@media (min-width: 600px) {
+  .modeSelect:active:focus-within .frame2 {
+    left: 29px;
+  }
+}

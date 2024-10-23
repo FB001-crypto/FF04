@@ -1,0 +1,121 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: flex-start;
+  background: #1e1e1e;
+  position: sticky;
+  min-width: 0;
+  border-radius: 6px;
+  padding: 6px;
+  border: 1px solid #dbdbd7;
+}
+.root:hover {
+  border-color: #c8c7c1;
+}
+.root:focus-within {
+  box-shadow: 0px 0px 0px 3px #96c7f2;
+  border-radius: 6px;
+}
+.root___focusVisibleWithin {
+  box-shadow: 0px 0px 0px 3px #96c7f2;
+  border-radius: 6px;
+}
+.startIconContainer {
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  left: auto;
+  top: auto;
+  margin-right: 8px;
+  display: none;
+}
+.startIconContainershowStartIcon {
+  display: flex;
+}
+.slotTargetStartIconshowStartIcon {
+  color: #90908c;
+}
+.svg___4Rb5U {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.input {
+  width: 100%;
+  left: auto;
+  top: auto;
+  color: #ffffff;
+  white-space: pre-wrap;
+  background: #1e1e1e;
+  font-size: 10px;
+  min-width: 0;
+  padding: 0px 0px 0px 8px;
+  border: 0px solid #1e1e1e;
+}
+@media (min-width: 600px) {
+  .input {
+    font-size: 16px;
+  }
+}
+.inputisDisabled {
+  cursor: not-allowed;
+  color: #ffffff;
+  border-color: #1a1a1a;
+}
+.root:focus-within .input {
+  white-space: pre-wrap;
+}
+.root .input:focus {
+  color: #ffffff;
+  padding-left: 8px;
+  border-style: solid;
+  border-color: #1e1e1e;
+}
+.root .input::placeholder {
+  color: #a5a5a5;
+  border-style: solid;
+  border-color: #1e1e1e;
+}
+.root .input:active {
+  color: #ffffff;
+  border-style: solid;
+  border-color: #1e1e1e;
+}
+.root .input___focusVisible {
+  color: #ffffff;
+  border-style: solid;
+  border-color: #1e1e1e;
+}
+.root .input:hover {
+  border-style: solid;
+  border-color: #1e1e1e;
+}
+.endIconContainer {
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  left: auto;
+  top: auto;
+  margin-left: 8px;
+  display: none;
+}
+.endIconContainershowEndIcon {
+  display: flex;
+}
+.slotTargetEndIconshowEndIcon {
+  color: #90908c;
+}
+.svg__vx2T {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}

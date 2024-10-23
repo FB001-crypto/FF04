@@ -1,0 +1,279 @@
+.profileModal {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 95%;
+  justify-self: baseline;
+  min-width: 375px;
+  background: linear-gradient(0deg, #1e1e1e 0%, #1e1e1e 95%, #666666 100%);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  padding: 4px 16px 16px;
+}
+.profileModal > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.profileModal > :global(.__wab_flex-container) > *,
+.profileModal > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.profileModal > :global(.__wab_flex-container) > picture > img,
+.profileModal
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+@media (min-width: 600px) {
+  .profileModal {
+    height: auto;
+    width: auto;
+    justify-self: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 600px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    min-height: 600px;
+    max-width: auto;
+    border-radius: 16px;
+  }
+}
+@media (min-width: 600px) {
+  .profileModal > :global(.__wab_flex-container) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 16px);
+    height: calc(100% + 16px);
+  }
+}
+@media (min-width: 600px) {
+  .profileModal > :global(.__wab_flex-container) > *,
+  .profileModal > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .profileModal > :global(.__wab_flex-container) > picture > img,
+  .profileModal
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+}
+.profileHeader {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 450px;
+  top: auto;
+  left: auto;
+  min-height: 32px;
+  min-width: 0;
+  padding: 12px;
+}
+@media (min-width: 600px) {
+  .profileHeader {
+    left: auto;
+    top: auto;
+    max-width: auto;
+    min-width: 600px;
+  }
+}
+.closeModal2 {
+  object-fit: cover;
+  max-width: 100%;
+  color: #ffffff;
+  transform: translate(-0.5px, 0.4990000000000001px);
+  width: 21px;
+  height: 21px;
+  display: block;
+  flex-shrink: 0;
+}
+@media (min-width: 600px) {
+  .closeModal2 {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+  }
+}
+.text___0PxuD {
+  display: block;
+  font-size: 24px;
+  font-family: "Built Titling";
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 1;
+  color: var(--token-PRoJeWs3wPpx);
+  position: relative;
+  left: auto;
+  top: auto;
+  height: auto;
+}
+@media (min-width: 600px) {
+  .text___0PxuD {
+    color: #ffffff;
+    font-size: 32px;
+  }
+}
+.closeModal {
+  object-fit: cover;
+  max-width: 100%;
+  color: #ffffff;
+  transform: translate(-0.5px, 0.4990000000000001px);
+  width: 21px;
+  height: 21px;
+  display: block;
+  flex-shrink: 0;
+}
+@media (min-width: 600px) {
+  .closeModal {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+  }
+}
+.freeBox__yiDhp {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+@media (min-width: 600px) {
+  .freeBox__yiDhp {
+    min-width: 600px;
+  }
+}
+.freeBox__uaFtt {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 420px;
+  min-height: 520px;
+  background: #2e2e2e;
+  overflow: hidden;
+  min-width: 340px;
+  border-radius: 16px;
+  padding: 8px;
+}
+.freeBox__uaFtt > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.freeBox__uaFtt > :global(.__wab_flex-container) > *,
+.freeBox__uaFtt > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__uaFtt > :global(.__wab_flex-container) > picture > img,
+.freeBox__uaFtt
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+@media (min-width: 600px) {
+  .freeBox__uaFtt {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: auto;
+    min-width: 580px;
+    min-height: 500px;
+  }
+}
+@media (min-width: 600px) {
+  .freeBox__uaFtt > :global(.__wab_flex-container) {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 12px);
+    height: calc(100% + 12px);
+  }
+}
+@media (min-width: 600px) {
+  .freeBox__uaFtt > :global(.__wab_flex-container) > *,
+  .freeBox__uaFtt > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .freeBox__uaFtt > :global(.__wab_flex-container) > picture > img,
+  .freeBox__uaFtt
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 0px;
+    margin-top: 12px;
+  }
+}
+.diamondsSelection:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+@media (min-width: 600px) {
+  .diamondsSelection:global(.__wab_instance) {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+}
+.nextButton:global(.__wab_instance) {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
+@media (min-width: 600px) {
+  .nextButton:global(.__wab_instance) {
+    width: auto;
+    flex-shrink: 0;
+  }
+}
+.svg__s0Mcn {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.text__rpn3S {
+  padding-bottom: 0px;
+  font-size: 12px;
+}
+@media (min-width: 600px) {
+  .text__rpn3S {
+    font-size: 16px;
+  }
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: #000000;
+}
+@media (min-width: 600px) {
+  .svg {
+    width: 18px;
+    height: 18px;
+  }
+}

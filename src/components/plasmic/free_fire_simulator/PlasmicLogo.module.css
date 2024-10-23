@@ -1,0 +1,12 @@
+.logo {
+  background: url("./images/logo.png") 0px -9px / 81px 81px no-repeat;
+  width: 82px;
+  height: 64px;
+  display: block;
+  position: relative;
+}
+@media (min-width: 600px) {
+  .logo {
+    background: url("./images/logo.png") 0px -9px / cover no-repeat;
+  }
+}

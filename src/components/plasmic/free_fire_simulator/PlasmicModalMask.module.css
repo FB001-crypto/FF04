@@ -1,0 +1,26 @@
+.modalMask {
+  display: grid;
+  align-content: flex-start;
+  justify-items: center;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  height: 100%;
+  background: #000000a6;
+  position: relative;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+}
+.modalMask > * {
+  grid-column: 4;
+}
+@media (min-width: 600px) {
+  .modalMask > * {
+    grid-column: 4;
+  }
+}

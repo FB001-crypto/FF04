@@ -1,0 +1,53 @@
+{
+  "name": "tmp-cpa",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^5.5.1",
+    "@ant-design/pro-components": "^2.6.4",
+    "@plasmicapp/cli": "^0.1.331",
+    "@plasmicapp/react-web": "^0.2.353",
+    "@plasmicpkgs/antd5": "^0.0.253",
+    "@plasmicpkgs/plasmic-basic-components": "^0.0.230",
+    "@plasmicpkgs/plasmic-nav": "^0.0.177",
+    "@plasmicpkgs/plasmic-rich-components": "^1.0.197",
+    "@plasmicpkgs/react-awesome-reveal": "^3.8.209",
+    "@plasmicpkgs/react-youtube": "^7.13.211",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.115",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

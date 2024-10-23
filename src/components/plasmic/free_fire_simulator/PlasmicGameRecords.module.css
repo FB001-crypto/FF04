@@ -1,0 +1,57 @@
+.rectangle4251 {
+  background: rgba(30, 30, 30, 1);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 8px 4px;
+}
+.rectangle4251color_light {
+  background: #2e2e2e;
+}
+.group44119 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  min-width: 0;
+}
+.slotTargetSlot {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 12px;
+  letter-spacing: 0em;
+}
+.slotTargetChildren {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 12px;
+  letter-spacing: 0em;
+}
+.group44081 {
+  width: 54px;
+  height: 13px;
+  display: block;
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}
+.earnOrLoss:global(.__wab_instance) {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}

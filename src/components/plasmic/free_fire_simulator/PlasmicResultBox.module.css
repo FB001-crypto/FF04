@@ -1,0 +1,77 @@
+._1stGame {
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+}
+@media (min-width: 600px) {
+  ._1stGame {
+    width: 40px;
+    height: 40px;
+    min-width: 24px;
+    min-height: 24px;
+    max-width: 72px;
+    max-height: 72px;
+  }
+}
+.rectangle4234 {
+  background: rgba(0, 230, 0, 1);
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  border-radius: 4px;
+}
+@media (min-width: 600px) {
+  .rectangle4234 {
+    background: #00e600;
+  }
+}
+.rectangle4234lose_airdrop {
+  background: #ff2f36;
+}
+.rectangle4234lose_vehicle {
+  background: #ff2f36;
+}
+.rectangle4234lose_firstAid {
+  background: #ff2f36;
+}
+.pngtreeHandPaintedCommercialGameEatChicken40297883 {
+  background: url("./images/scenarioPic.png") center center / cover no-repeat;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+@media (min-width: 600px) {
+  .pngtreeHandPaintedCommercialGameEatChicken40297883 {
+    width: 75%;
+    height: 75%;
+    top: 6px;
+    left: 6px;
+    padding-right: 0px;
+    background: url("./images/scenarioPic.png") center center / cover no-repeat;
+  }
+}
+@media (min-width: 600px) {
+  .pngtreeHandPaintedCommercialGameEatChicken40297883win_airdrop {
+    background: url("./images/scenarioPic.png") center center / cover no-repeat;
+  }
+}
+.pngtreeHandPaintedCommercialGameEatChicken40297883win_vehicle {
+  background: url("./images/pngtreeMonsterTruckVehicleOrCar15408940Png.png") center center / cover no-repeat;
+}
+.pngtreeHandPaintedCommercialGameEatChicken40297883win_firstAid {
+  background: url("./images/pngtreeHandPaintedCommercialGameEatChicken40297882.png") center center / contain no-repeat;
+}
+.pngtreeHandPaintedCommercialGameEatChicken40297883lose_vehicle {
+  background: url("./images/pngtreeMonsterTruckVehicleOrCar15408940Png.png") center center / cover no-repeat;
+}
+.pngtreeHandPaintedCommercialGameEatChicken40297883lose_firstAid {
+  background: url("./images/pngtreeHandPaintedCommercialGameEatChicken40297882.png") center center / contain no-repeat;
+}

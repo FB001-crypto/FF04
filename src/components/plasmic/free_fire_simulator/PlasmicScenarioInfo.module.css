@@ -1,0 +1,90 @@
+.scenarioInfo {
+  width: 100%;
+  height: 72px;
+  display: block;
+  position: relative;
+}
+@media (min-width: 600px) {
+  .scenarioInfo {
+    height: 25%;
+  }
+}
+.freeBox__c6Za {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  top: 0%;
+  left: 0%;
+  padding: 8px;
+}
+@media (min-width: 600px) {
+  .freeBox__c6Za {
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 0;
+  }
+}
+.freeBox__dhAnA {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+@media (min-width: 600px) {
+  .freeBox__dhAnA {
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 0;
+  }
+}
+.text__kO7CR {
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  font-family: "Aldo the Apache";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(255, 184, 0, 1);
+  width: 180px;
+}
+@media (min-width: 600px) {
+  .text__kO7CR {
+    font-size: 300%;
+    width: auto;
+    line-height: 1;
+  }
+}
+.text__cperp {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Aldo the Apache";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(255, 184, 0, 1);
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 180px;
+}
+@media (min-width: 600px) {
+  .text__cperp {
+    font-size: 150%;
+    width: auto;
+  }
+}

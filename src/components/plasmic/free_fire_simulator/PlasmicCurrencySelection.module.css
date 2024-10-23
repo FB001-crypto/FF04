@@ -1,0 +1,44 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  min-width: 0;
+  padding: 8px 0px;
+}
+._2选择货币 {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text {
+  display: block;
+  font-size: 16px;
+  font-family: "Built Titling";
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 1;
+  color: rgba(255, 255, 255, 1);
+  padding: 8px;
+}
+@media (min-width: 600px) {
+  .text {
+    font-size: 20px;
+  }
+}
+.currencyBar__ey8Hj:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.currencyBar__k06J9:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}

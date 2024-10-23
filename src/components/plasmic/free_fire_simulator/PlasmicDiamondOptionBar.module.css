@@ -1,0 +1,210 @@
+.group {
+  width: 100%;
+  height: 102px;
+  display: block;
+  position: relative;
+  justify-self: flex-start;
+  min-width: 0;
+}
+@media (min-width: 600px) {
+  .group {
+    height: 140px;
+  }
+}
+.light {
+  opacity: 0.2;
+  background: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: 93.13%;
+  display: block;
+  left: 0%;
+  top: 0%;
+  position: absolute;
+  flex-grow: 0;
+  min-width: 0;
+}
+.dark {
+  opacity: 0.25;
+  background: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: 19.6%;
+  display: block;
+  position: absolute;
+  top: 6.86%;
+  left: 0%;
+  min-width: 0;
+}
+.freeBox__gkPh {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 115px;
+  max-width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  min-width: 0;
+  padding: 4px 8px 8px;
+}
+@media (min-width: 600px) {
+  .freeBox__gkPh {
+    height: 150px;
+  }
+}
+.diamondOptions__wGgeA:global(.__wab_instance) {
+  height: 92%;
+}
+@media (min-width: 600px) {
+  .diamondOptions__wGgeA:global(.__wab_instance) {
+    width: 18%;
+  }
+}
+.diamondOptions__wswXk:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  height: 92%;
+}
+@media (min-width: 600px) {
+  .diamondOptions__wswXk:global(.__wab_instance) {
+    width: 18%;
+  }
+}
+.diamondOptions__xIgQ9:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  height: 92%;
+}
+.diamondOptionswithdraw__3rdBar__xIgQ97Hk5X:global(.__wab_instance) {
+  display: none;
+}
+.diamondOptions__kt1N:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  height: 92%;
+}
+@media (min-width: 600px) {
+  .diamondOptions__kt1N:global(.__wab_instance) {
+    left: auto;
+    top: auto;
+  }
+}
+.diamondOptionstopUp__1stBar__kt1N2Itys:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+}
+.diamondOptionstopUp__2ndBar__kt1NRlFd4:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+}
+.diamondOptionstopUp__3rdBar__kt1Nu1Qig:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+}
+@media (min-width: 600px) {
+  .diamondOptionswithdraw__2ndBar__kt1NhvNvR:global(.__wab_instance) {
+    display: none;
+  }
+}
+.diamondOptions__ha0Fs:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  height: 92%;
+}
+@media (min-width: 600px) {
+  .diamondOptions__ha0Fs:global(.__wab_instance) {
+    left: auto;
+    top: auto;
+  }
+}
+.diamondOptionstopUp__1stBar__ha0Fs2Itys:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+}
+.diamondOptionstopUp__2ndBar__ha0FsrlFd4:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+}
+@media (min-width: 600px) {
+  .diamondOptionstopUp__2ndBar__ha0FsrlFd4:global(.__wab_instance) {
+    display: none;
+  }
+}
+.diamondOptionstopUp__3rdBar__ha0FSu1Qig:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+}
+@media (min-width: 600px) {
+  .diamondOptionswithdraw__2ndBar__ha0FShvNvR:global(.__wab_instance) {
+    display: none;
+  }
+}
+.freeBox__imnHs {
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  height: 92%;
+  max-width: 25%;
+  width: 100%;
+  min-width: 0;
+  display: none;
+  padding: 8px;
+}
+@media (min-width: 600px) {
+  .freeBox__imnHs {
+    display: none;
+  }
+}
+@media (min-width: 600px) {
+  .freeBoxtopUp__2ndBar__imnHsrlFd4 {
+    max-width: 18%;
+    display: flex;
+  }
+}
+@media (min-width: 600px) {
+  .freeBoxwithdraw__2ndBar__imnHShvNvR {
+    max-width: 18%;
+    display: flex;
+  }
+}
+.freeBoxwithdraw__3rdBar__imnHs7Hk5X {
+  display: none;
+}
+.freeBox__vzMgl {
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  height: 92%;
+  max-width: 25%;
+  width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+@media (min-width: 600px) {
+  .freeBox__vzMgl {
+    display: none;
+  }
+}
+@media (min-width: 600px) {
+  .freeBoxtopUp__2ndBar__vzMglrlFd4 {
+    max-width: 18%;
+    display: flex;
+  }
+}
+@media (min-width: 600px) {
+  .freeBoxwithdraw__2ndBar__vzMgLhvNvR {
+    max-width: 18%;
+    display: flex;
+  }
+}
+.freeBoxwithdraw__3rdBar__vzMgl7Hk5X {
+  display: flex;
+}

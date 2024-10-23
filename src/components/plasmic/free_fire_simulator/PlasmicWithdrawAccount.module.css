@@ -1,0 +1,58 @@
+.accountNumber {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 240px;
+  position: relative;
+  padding: 4px 8px;
+}
+@media (min-width: 600px) {
+  .accountNumber {
+    min-width: 180px;
+  }
+}
+.freeBox {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 4px;
+  min-width: 0;
+  padding: 0px;
+}
+.text__pcPgF {
+  display: block;
+  font-size: 10px;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 12px;
+  color: rgba(204, 204, 204, 1);
+}
+@media (min-width: 600px) {
+  .text__pcPgF {
+    font-size: 14px;
+  }
+}
+.accountNumberSelection:global(.__wab_instance) {
+  max-width: 100%;
+  width: 100%;
+  min-width: 280px;
+  height: auto;
+}
+.text__kiwi4 {
+  font-size: 10px;
+}
+@media (min-width: 600px) {
+  .text__kiwi4 {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,102 @@
+.group44098 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  min-width: 0;
+}
+.group44098 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 0;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.group44098 > :global(.__wab_flex-container) > *,
+.group44098 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.group44098 > :global(.__wab_flex-container) > picture > img,
+.group44098
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+}
+.text {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  font-family: "Aldo the Apache";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1;
+  color: rgba(255, 184, 0, 1);
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.textstatus_loss {
+  color: #ffffff;
+}
+.group {
+  width: 12px;
+  height: 12px;
+  display: block;
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}
+.img {
+  object-fit: cover;
+  max-width: 100%;
+  transform: translate(0px, 0.29200000000000004px);
+  width: 12px;
+  height: 12px;
+  display: block !important;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.svg__zYnlg {
+  object-fit: cover;
+  max-width: 100%;
+  color: #ffe07d;
+  transform: translate(-0.021000000000015007px, 0.28300000000000036px);
+  width: 1.308px;
+  height: 1.913px;
+  display: block;
+  position: absolute;
+  top: 6px;
+  left: 9px;
+}
+.svg__kQePr {
+  object-fit: cover;
+  max-width: 100%;
+  color: #ffe07d;
+  transform: translate(0.040000000000020464px, -0.25399999999999956px);
+  width: 1.308px;
+  height: 1.913px;
+  display: block;
+  position: absolute;
+  top: 9px;
+  left: 3px;
+}
+.svg__qr4R {
+  object-fit: cover;
+  max-width: 100%;
+  color: #ffe07d;
+  transform: translate(0.41100000000000136px, 0px);
+  width: 1.759px;
+  height: 2.584px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 1px;
+}
